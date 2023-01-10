@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0% 0% 0% 0%;
+    
+}
+
+.hide-class {
+    display: none;
+}
+
+.hamburger {
+    align-self: flex-start;
+    margin: 5% 0% -3% 5%;
+
+}
+
+.hamburger img {
+text-decoration: none;
+color: #ec5242;
+color: #d3d3d3;
+color: #272a31;
+width: 32px;
+/* margin: 5% 0% 2% 5%; */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f7f6f6;
+    background-image: url('/assets/mobile_intro_bg.png');
+    background-position: 94% 6%;
+    background-repeat: no-repeat;
+    background-size: 107%;
+    padding: 1% 5% 10% 5%;
+
+}
+
+.intro {
+    color: #ec5242;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 12% 0% 0% 0%;
+
+}
+
+h1 {
+    color: #ec5242;
+    font-weight: 900;
+    font-size: 2.3rem;
+    margin: 2% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+.main-desc {
+    color: #272a31;
+    
+    border: white 2px solid;
+    background-color: rgb(242, 242, 242);
+    max-width: 90%;
+    margin: 3% 0% 0% 0%;
+    padding: 5%;
+}
+
+.main-desc p {
+    color: #272a31;
+    
+    margin: 0% 0% 0% 0%;
+    font-size: 0.8rem;
+    line-height: 23px;
+    text-align: center;
+}
+
+.date-venue {
+    padding: 0%;
+    margin: 0%;
+}
+
+.date {
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 2.5%;
+
+}
+
+.venue {
+    font-weight: 500;
+    margin: 0% 0%;
+}
+
+.programs {
+    background-color: #272a31;
+    color: white;
+    background-image: url(/assets/pattern_bg.png);
+    padding: 8% 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider {
+    /* background-color: #ec5242; */
+    border-bottom: #ec5242 solid 1px;
+    height: 1.5px;
+    width: 8%;
+    margin: 0%;
+}
+
+.program-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10% 0%;
+}
+
+.program-box {
+    background-color: rgba(127, 127, 127, 0.2);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 3.2fr;
+    margin-bottom: 1%;
+    max-height: 90%;
+    align-items: center;
+    padding: 0% 1%;
+
+}
+
+.program-topic {
+    color: #ec5242;
+}
+
+.program-desc {
+    font-size: 0.8rem;
+}
+
+.program-box img {
+    width: 80%;
+}
+
+.join-festival {
+    text-decoration: none;
+    color: white;
+    background-color: #ec5242;
+    /* height: 5%; */
+    padding: 8% 10% 8% 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.partners {
+    background-color: #272a31;
+}
+
+.partner-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.partner-topic {
+    color: #f2f2f2;
+    
+}
+
+.partners-container {
+    margin-top: 7%;
+    padding-right: 5%;
+}
+
+.partners-lister {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.partner {
+    width: 80%;
+    list-style: none;
+    margin-bottom: 18%;
+}
+.partner img {
+    max-width: 100%;
+}
