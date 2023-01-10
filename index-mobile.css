@@ -21,7 +21,53 @@ color: #ec5242;
 color: #d3d3d3;
 color: #272a31;
 width: 32px;
-/* margin: 5% 0% 2% 5%; */
+}
+.nav-bg {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.navs img {
+    width: 50%;
+    margin: 10% 25% 0% 25%;
+}
+
+.main-nav {
+    position: absolute;
+    border: #ec5242 solid 2px;
+    color: #d3d3d3;
+    top: 6%;
+    left: 13%;
+    background-color: #272a31;
+    width: 60vw;
+    height: 60vh;
+}
+.nav-wrapper {
+    margin-bottom: 60%;
+}
+.nav-wrapper li {
+    list-style: none;
+    padding: 0% 10%;
+    margin-bottom: 2%;
+}
+
+.nav-wrapper li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.campaign-link {
+    margin: 15% 0% 5% 25%;
+    color: #ec5242;
+    text-decoration: none;
+    background-color: white;
+    border: #ec5242 2px solid;
+    padding: 5% 8%;
 }
 
 .main {
@@ -145,6 +191,100 @@ h1 {
 
 }
 
+.speaker-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.speakers-head-text {
+    font-size: 1.4rem;
+    margin-bottom: 3%;
+}
+
+.speaker-section-top {
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* column-gap: 5%; */
+}
+.speaker-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+ .speaker-box img {
+    width: 100%;
+    margin-right: 2%;
+ }
+
+ .speaker-desc-box > * {
+    margin: 2.5% 0%;
+    padding: 0% 0% 0% 5%;
+ }
+
+ .speaker-name {
+    /* color: #ec5242; */
+    font-size: 1.2rem;
+ }
+
+ .speaker-title {
+    color: #ec5242;
+    font-size: 0.67rem;
+    font-style: italic;
+ }
+
+ .speaker-desc {
+    font-size: 0.625rem;
+    color: #727272;
+    font-weight: 300;
+ }
+
+
+
+
+
+
+
+.footer {
+    color: #d3d3d3;
+    background-color: #272a31;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr; */
+    
+}
+
+.footer img {
+    width: 60%;
+    margin-left: 18%;
+}
+
+.footer-logo-box {
+    display: flex;
+    justify-items: center;
+    align-self: center;
+}
+
+.footer p {
+    font-size: 0.61rem;
+    margin-top: 5%;
+    line-height: 18px;
+
+}
+
+footer a {
+    color: #d3d3d3;
+    text-decoration: underline;
+    font-weight: 700;
+}
 
 
 
