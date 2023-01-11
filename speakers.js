@@ -15,7 +15,7 @@ const speakers = [
         image:'assets/speakers/speaker_03.png',
         name:'Oscar Mawuli Nuwati',
         title:'Journalist and Sports Pundit, Max TV, Accra.',
-        desctiption:'With years of experirnce in the media and sports industries, Oscar has pushed the Ghanaian Esports space with knowledge gathered from past, present amd even future trends in spaces related to E-sports.',
+       desctiption:'With years of experirnce in the media and sports industries, Oscar has pushed the Ghanaian Esports space with knowledge gathered from past, present amd even future trends in spaces related to E-sports.',
     },
     {
         image:'assets/speakers/speaker_04.png',
@@ -36,4 +36,18 @@ const speakers = [
         desctiption:'Solomon has mentored various top-class players to attain heights unimagined. Teams also love his energy and efforts he presents to the community. Through Solomon many E-Teams were born and bred.  ',
     },
 ]
+
+const speakerContainer = document.querySelector('.speakers-container');
+for(let i=0;i<speakers.length;i+=1){
+    console.log(speakers[i])
+    speakerContainer.innerHTML += `<div class="speaker-box">
+    <img src="${speakers[i].image}" alt="speaker1-img" class="speaker-image">
+    <div class="speaker-desc-box">
+        <h4 class="speaker-name">${speakers[i].name}</h4>
+        <p class="speaker-title">${speakers[i].title}</p>
+        <p class="speaker-desc">${speakers[i].desctiption}</p>
+    </div>
+</div>`
+
+}
 
