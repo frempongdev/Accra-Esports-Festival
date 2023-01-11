@@ -2,15 +2,18 @@
   .hamburger {
     display: none;
   }
-
-  .header {
-    border: 1px solid red;
+  
+  .close-btn {
+    display: none;
   }
+
+  
+
 
   .top-social {
     display: block;
     background-color: black;
-    padding: 0.1% 7%;
+    padding: 0.1% 10%;
   }
 
   .top-social-wrap {
@@ -207,17 +210,16 @@
   .speaker-box {
     margin: 0% 1% 5% 0%;
   }
-}
-
-.partners {
-  display: block;
-  padding: 5%;
-  height: 45vh;
-}
-
-.partner-top {
-  width: 100%;
-}
+  
+  .partners {
+    display: block;
+    padding: 5%;
+    height: 45vh;
+  }
+  
+  .partner-top {
+    width: 100%;
+  }
 
 .partner-topic {
   color: #a6a6a6;
@@ -241,18 +243,29 @@
 }
 
 .footer-logo-box {
-  width: 40%;
+  width: 80%;
 }
 
 .footer img {
-  width: 90%;
+  width: 95%;
   margin-left: 18%;
 }
 
 .footer p {
-  margin-top: 2%;
+  font-size: 1.1rem;
+  margin-top: 1%;
+  width: 80%;
+  line-height: 40px;
 }
 
 .contact-details {
-  padding: 0% 6% 0% 3%;
+  padding: 0% 0% 0% 4%;
+}
+
+.license-warning {
+  display: block;
+  margin-top: 0%;
+}
+
+
 }

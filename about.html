@@ -13,43 +13,48 @@
     <header class="header">
         <div class="top-social hide-class">
             <ul class="top-social-wrap">
-                <li class="top-social">
+                <li class="top-social-item">
                     <a href="#" class="facebook-con">
                         <img src="assets/social/facebook-app-symbol.png" alt="facebook-con">
                     </a>    
                 </li>
-                <li class="top-social">
+                <li class="top-social-item">
                     <a href="#" class="twitter-con">
                         <img src="assets/social/twitter.png" alt="twitter-con">
                     </a>    
                 </li>
-                <li class="top-social">
+                <li class="top-social-item">
                    <a href="#" class="lang">English</a> 
                 </li>
-                <li class="top-social">
+                <li class="top-social-item">
                     <a href="#" class="lang">My Page</a> 
                 </li>
-                <li class="top-social">
+                <li class="top-social-item">
                     <a href="#" class="lang">Logout</a> 
                 </li>
             </ul>
         </div>
 
-        <div class="main-nav">
-            <nav class="navs">
-                <a class="page-logo hide-class" href="#">
-                    <img src="assets/logo.jpg" alt="page-logo">
-                    ACCRA ESPORTS <br> Festival 2023
-                </a>
-                <ul class="nav-wrapper hide-class">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#program">Program</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Sponsor</a></li>
-                    <li><a href="#">News</a></li>
-                </ul>
-                <a href="E-Campaign" class="campaign-link"></a>
-            </nav>
+        <div class="nav-bg hide-class">
+            <button class="close-btn" >
+                X
+            </button>
+            <div class="main-nav">
+                <nav class="navs">
+                    <a class="page-logo" href="index.html">
+                        <img src="assets/logo.PNG" alt="page-logo">
+                    </a>
+                    <ul class="nav-wrapper .hide-class">
+                        <li id="about" ><a href="about.html">About</a></li>
+                        <li ><a id="home" href="index.html">Home</a></li>
+                        <li><a href="#program">Program</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Sponsor</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                    <a href="#" class="campaign-link">E-Campaign</a>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -58,10 +63,14 @@
         <a class="hamburger" href="#"> <img src="assets/hamburger.png" alt="nav-icon"> </a>
         <h3 class="intro">"Hello! Ghana Gamers"</h3>
         <h1 class="topic-tect">ACCRA <br> ESPORTS FESTIVAL 2023</h1>
+        <div class="divider"></div>
         <div class="main-desc">
             <p>
             Our Elecronic Sports Festival brings together the broad community of Gamers who are willing to share knowledge, experience and skill. We hope that this Year extends interest in our industry beyond its members.
             </p>
+            <p id="main-desc-long">
+                This festival also provides a platform for up-and-coming gamers to showcase their talents and potentially launch their careers. In addition to competition, we also offer workshops we call 'E-Talk' for attendees to learn from industry experts. We strive to promote inclusivity and diversity in the gaming community through our events and programming. We are excited to see the connections and friendships that will be formed at our festival, bringing the gaming community even closer together.            </p>
+            
         </div>
         <span class="email-contact">Please contact us per Email for any further questions about Accra Esports Festival 2023</span>
         <a id="email" href="mailto:info@ghanaesportsfederation.org">info@ghanaesportsfederation.org</a>
@@ -74,7 +83,7 @@
         <p class="logo-desc hide-class">
             Through the logo contest, which was held from November 8th to December 7th, the winning design was determined through online voting and evaluation by judges.The logo of Accra Esports Festival 2023 optimized for use on the homepage and promotional materials after consultation with the winning designer is as follows.
         </p>
-        <p class="logo-desc">
+        <p class="logo-desc-short">
             The logo of Accra Esports Festival 2023 was slected as a winning design in a logo contest, which was held from November 8th to December 7th.
         </p>
         <div class="logo-box">
@@ -142,7 +151,7 @@
     <!-- FOOTER--------------------------------------------------------------------------------------- -->
     <footer class="footer">
         <div class="footer-logo-box">
-            <a href="#" class="footer-home-link">
+            <a href="index.html" class="footer-home-link">
                 <img src="assets/logo.PNG" alt="page-logo" class="footer-logo">
             </a>
         </div>
@@ -152,6 +161,6 @@
         </div>
     </footer>
 
-    
+   <script src="script.js"></script> 
 </body>
 </html>

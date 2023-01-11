@@ -24,6 +24,70 @@ body {
   /* margin: 5% 0% 2% 5%; */
 }
 
+
+
+.nav-bg {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+}
+
+.navs img {
+  width: 50%;
+  margin: 10% 25% 0% 25%;
+}
+
+.main-nav {
+  position: absolute;
+  border: #ec5242 solid 2px;
+  color: #d3d3d3;
+  top: 6%;
+  left: 13%;
+  background-color: #272a31;
+  width: 60vw;
+  height: 60vh;
+}
+
+.close-btn {
+  color: #272a31;
+  position: relative;
+  top: 1%;
+  left: 3%;
+  width: 10%;
+  height: 5%;
+}
+
+.nav-wrapper {
+  margin-bottom: 60%;
+}
+
+.nav-wrapper li {
+  list-style: none;
+  padding: 0% 10%;
+  margin-bottom: 2%;
+}
+
+.nav-wrapper li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#about {
+  display: none;
+}
+
+.campaign-link {
+  margin: 15% 0% 5% 25%;
+  color: #ec5242;
+  text-decoration: none;
+  background-color: white;
+  border: #ec5242 2px solid;
+  padding: 5% 8%;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -66,6 +130,10 @@ h1 {
   font-size: 0.8rem;
   line-height: 23px;
   text-align: center;
+}
+
+#main-desc-long {
+  display: none;
 }
 
 .email-contact {
