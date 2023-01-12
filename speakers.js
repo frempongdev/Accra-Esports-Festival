@@ -56,18 +56,28 @@ const speakerBox = document.querySelectorAll('.speaker-box');
 spkbx=speakerBox;
 if (i>1){
   speakerBox[i].classList.add('hide-speaker'); 
-  console.log(speakerBox[i].classList);
-  
-  moreBtn.addEventListener('click', function(){
-    console.log(speakerBox[i].classList);
-
-  });
+}
 }
 
-}
-
+const speakerBox = document.querySelectorAll('.speaker-box');
 moreBtn.addEventListener('click', function(){
-  
+  speakerBox.forEach((speaker)=>{
+    speaker.classList.remove('hide-speaker'); 
+    moreBtn.classList.add('hide-speaker');
+    lessBtn.classList.remove('hide-speaker');
+  })
 });
+
+lessBtn.addEventListener('click', function(){
+  speakerBox.forEach((speaker,index)=>{
+    if (index>1){
+      speaker.classList.add('hide-speaker'); 
+      
+    }
+
+    moreBtn.classList.remove('hide-speaker');
+    lessBtn.classList.add('hide-speaker');
+  })
+})
   
 
