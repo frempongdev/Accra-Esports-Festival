@@ -55,7 +55,6 @@ body {
   height: 5%;
 }
 
-
 .nav-wrapper {
   margin-bottom: 60%;
 }
@@ -64,6 +63,12 @@ body {
   list-style: none;
   padding: 0% 10%;
   margin-bottom: 2%;
+}
+
+footer a {
+  color: #d3d3d3;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 .nav-wrapper li a {
@@ -279,12 +284,6 @@ h1 {
   margin-top: 5%;
   line-height: 18px;
   width: 70%;
-}
-
-footer a {
-  color: #d3d3d3;
-  text-decoration: underline;
-  font-weight: 700;
 }
 
 .partners {

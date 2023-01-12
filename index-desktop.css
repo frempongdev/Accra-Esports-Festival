@@ -2,13 +2,10 @@
   .hamburger {
     display: none;
   }
-  
+
   .close-btn {
     display: none;
   }
-
-  
-
 
   .top-social {
     display: block;
@@ -210,62 +207,60 @@
   .speaker-box {
     margin: 0% 1% 5% 0%;
   }
-  
+
   .partners {
     display: block;
     padding: 5%;
     height: 45vh;
   }
-  
+
   .partner-top {
     width: 100%;
   }
 
-.partner-topic {
-  color: #a6a6a6;
-  font-size: 1.5rem;
-}
+  .partner-topic {
+    color: #a6a6a6;
+    font-size: 1.5rem;
+  }
 
-.partners-lister {
-  display: flex;
-}
+  .partners-lister {
+    display: flex;
+  }
 
-.partner {
-  margin-right: 2%;
-}
+  .partner {
+    margin-right: 2%;
+  }
 
-.footer {
-  color: black;
-  background-color: white;
-  padding: 5%;
-  display: flex;
-  flex-direction: row;
-}
+  .footer {
+    color: black;
+    background-color: white;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+  }
 
-.footer-logo-box {
-  width: 80%;
-}
+  .footer-logo-box {
+    width: 80%;
+  }
 
-.footer img {
-  width: 95%;
-  margin-left: 18%;
-}
+  .footer img {
+    width: 95%;
+    margin-left: 18%;
+  }
 
-.footer p {
-  font-size: 1.1rem;
-  margin-top: 1%;
-  width: 80%;
-  line-height: 40px;
-}
+  .footer p {
+    font-size: 1.1rem;
+    margin-top: 1%;
+    width: 80%;
+    line-height: 40px;
+  }
 
-.contact-details {
-  padding: 0% 0% 0% 4%;
-}
+  .contact-details {
+    padding: 0% 0% 0% 4%;
+  }
 
-.license-warning {
-  display: block;
-  margin-top: 0%;
-}
-
-
+  .license-warning {
+    display: block;
+    margin-top: 0%;
+  }
 }
