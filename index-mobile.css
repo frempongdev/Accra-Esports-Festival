@@ -260,6 +260,37 @@ h1 {
   font-weight: 300;
 }
 
+.show-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 100%;
+  background-color: #ffffff;
+  border: #e0e0e0 1px solid;
+
+}
+
+.show-more > *{
+  font-size: 0.7rem;
+  margin-right: 10%;
+} 
+
+.show-more image {
+  color: #ec5242;
+}
+
+.hide-speaker {
+  display: unset;
+  display: none;
+}
+
 .footer {
   color: #d3d3d3;
   background-color: #272a31;

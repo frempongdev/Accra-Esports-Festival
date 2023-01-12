@@ -37,7 +37,11 @@ const speakers = [
   },
 ];
 
+const moreBtn = document.getElementById('more');
+const lessBtn = document.getElementById('less');
 const speakerContainer = document.querySelector('.speakers-container');
+let spkbx;
+
 for (let i = 0; i < speakers.length; i += 1) {
   speakerContainer.innerHTML += `<div class="speaker-box">
     <img src="${speakers[i].image}" alt="speaker1-img" class="speaker-image">
@@ -47,4 +51,23 @@ for (let i = 0; i < speakers.length; i += 1) {
         <p class="speaker-desc">${speakers[i].desctiption}</p>
     </div>
 </div>`;
+
+const speakerBox = document.querySelectorAll('.speaker-box');
+spkbx=speakerBox;
+if (i>1){
+  speakerBox[i].classList.add('hide-speaker'); 
+  console.log(speakerBox[i].classList);
+  
+  moreBtn.addEventListener('click', function(){
+    console.log(speakerBox[i].classList);
+
+  });
 }
+
+}
+
+moreBtn.addEventListener('click', function(){
+  
+});
+  
+

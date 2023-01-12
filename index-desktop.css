@@ -208,6 +208,10 @@
     margin: 0% 1% 5% 0%;
   }
 
+  .show-btn {
+    display: none;
+  }
+
   .partners {
     display: block;
     padding: 5%;
