@@ -34,6 +34,11 @@ If link does not work copy URL ( https://frempongdev.github.io/Accra-Esports-Fes
 
 <br>
 
+<!-- DEPLOYMENT -->
+### Have a look at the project's video presentation [here](https://www.loom.com/share/1f7de2b9345a4d3988c6327952899d30) 📽️ .
+
+<br>
+
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Accra Esports Festival] <a name="about-project"></a>
