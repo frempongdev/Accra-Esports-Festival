@@ -272,15 +272,14 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 10% 100%;
-  background-color: #ffffff;
+  background-color: #fff;
   border: #e0e0e0 1px solid;
-
 }
 
-.show-more > *{
+.show-more > * {
   font-size: 0.7rem;
   margin-right: 10%;
-} 
+}
 
 .show-more image {
   color: #ec5242;

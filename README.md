@@ -76,7 +76,8 @@ If link does not work copy URL ( https://frempongdev.github.io/Accra-Esports-Fes
 - **This Project has a Readme.md file**
 - **This Project has a gitignore file**
 - **This projects follows all Microverse Linters**
-- **This project gives detail description**
+- **This project gives detail description about the Esports festival in Accra**
+- **This project gives opportunity for participants to book a ticket for the event**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +95,7 @@ In order to run this project you need to copy the link of this Repository.
 
 
 ```sh
- https://github.com/frempongdev/Personal-Portfolio.git
+ https://github.com/frempongdev/Accra-Esports-Festival.git
 ```
 <br>
 
@@ -105,7 +106,7 @@ Clone this repository to your desired directory using the command:
 
 ```sh
   cd your-folder
-  git clone https://github.com/frempongdev/Personal-Portfolio.git 
+  git clone https://github.com/frempongdev/Accra-Esports-Festival.git 
 ```
 
 <br>
@@ -142,9 +143,9 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Contact Form]**
-- [ ] **[Responsive SIte  adjustments]**
-- [ ] **[Individual Sites Developed]**
+- [ ] **[Tickets Page]**
+- [ ] **[Accommodation Booking]**
+- [ ] **[Individual Event Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +163,7 @@ If you like this project kindly support by suggesting changed by forking and pul
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank  everyone who inspired me to learn programming. 
+I would like to thank  everyone who inspired me to learn programming. Regards to the whole Microverse team, Peers, and family supporting.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

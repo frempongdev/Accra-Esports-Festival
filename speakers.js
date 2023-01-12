@@ -40,7 +40,6 @@ const speakers = [
 const moreBtn = document.getElementById('more');
 const lessBtn = document.getElementById('less');
 const speakerContainer = document.querySelector('.speakers-container');
-let spkbx;
 
 for (let i = 0; i < speakers.length; i += 1) {
   speakerContainer.innerHTML += `<div class="speaker-box">
@@ -52,32 +51,28 @@ for (let i = 0; i < speakers.length; i += 1) {
     </div>
 </div>`;
 
-const speakerBox = document.querySelectorAll('.speaker-box');
-spkbx=speakerBox;
-if (i>1){
-  speakerBox[i].classList.add('hide-speaker'); 
-}
+  const speakerBox = document.querySelectorAll('.speaker-box');
+  if (i > 1) {
+    speakerBox[i].classList.add('hide-speaker');
+  }
 }
 
 const speakerBox = document.querySelectorAll('.speaker-box');
-moreBtn.addEventListener('click', function(){
-  speakerBox.forEach((speaker)=>{
-    speaker.classList.remove('hide-speaker'); 
+moreBtn.addEventListener('click', () => {
+  speakerBox.forEach((speaker) => {
+    speaker.classList.remove('hide-speaker');
     moreBtn.classList.add('hide-speaker');
     lessBtn.classList.remove('hide-speaker');
-  })
+  });
 });
 
-lessBtn.addEventListener('click', function(){
-  speakerBox.forEach((speaker,index)=>{
-    if (index>1){
-      speaker.classList.add('hide-speaker'); 
-      
+lessBtn.addEventListener('click', () => {
+  speakerBox.forEach((speaker, index) => {
+    if (index > 1) {
+      speaker.classList.add('hide-speaker');
     }
 
     moreBtn.classList.remove('hide-speaker');
     lessBtn.classList.add('hide-speaker');
-  })
-})
-  
-
+  });
+});

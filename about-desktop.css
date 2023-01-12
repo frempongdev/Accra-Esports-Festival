@@ -71,8 +71,10 @@
   .page-logo {
     display: block;
     width: 10%;
+  }
 
-    /* display: flex; */
+  .past-events span {
+    font-size: 1rem;
   }
 
   .navs img {
@@ -89,6 +91,10 @@
   .nav-wrapper li {
     padding: 0% 8%;
     margin: 0%;
+  }
+
+  .events-box a {
+    margin-right: 5%;
   }
 
   .nav-wrapper li a {
@@ -127,10 +133,15 @@
   }
 
   .main-desc {
+    font-size: 1rem;
     width: 55%;
     border: #e3e4e6 1px solid;
     padding: 3%;
     margin: 3% 0% 5% 0%;
+  }
+
+  .main-desc p {
+    font-size: 0.9rem;
   }
 
   #main-desc-long {
@@ -147,7 +158,7 @@
 
   .logo-desc {
     display: block;
-    font-size: 0.81rem;
+    font-size: 1rem;
     margin-top: 2%;
     width: 60%;
   }
@@ -157,7 +168,10 @@
   }
 
   .events-box {
+    display: flex;
+    justify-content: center;
     margin-top: 5%;
+    width: 100%;
   }
 
   .partners {
@@ -173,7 +187,7 @@
   }
 
   .footer img {
-    width: 60%;
+    width: 80%;
     margin-left: 18%;
   }
 
@@ -185,14 +199,13 @@
   }
 
   .footer p {
-    font-size: 0.61rem;
-    margin-top: 2%;
+    font-size: 1rem;
+    margin: 2% 0% 0% 5%;
     line-height: 18px;
   }
 
-
-
   .license-warning {
+    font-size: 1rem;
     display: block;
     margin-top: 0%;
   }
