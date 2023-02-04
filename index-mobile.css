@@ -95,7 +95,7 @@ footer a {
   flex-direction: column;
   align-items: flex-start;
   background-color: #f7f6f6;
-  background-image: url('/assets/mobile_intro_bg.png');
+  background-image: url('assets/mobile_intro_bg.png');
   background-position: 94% 6%;
   background-repeat: no-repeat;
   background-size: 107%;

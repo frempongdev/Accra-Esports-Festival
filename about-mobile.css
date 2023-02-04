@@ -91,7 +91,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #f7f6f6;
-  background-image: url('/assets/about_bg_01.png');
+  background-image: url('assets/about_bg_01.png');
   background-position: 6% 21%;
   background-repeat: no-repeat;
   background-size: 250%;
