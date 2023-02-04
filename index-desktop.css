@@ -100,7 +100,7 @@
   }
 
   .main {
-    background-image: url('/assets/main_big.png');
+    background-image: url('assets/main_big.png');
     background-position: 53% 143%;
     padding: 1% 5% 10% 10%;
     background-repeat: repeat-y;
