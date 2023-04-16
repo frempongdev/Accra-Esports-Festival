@@ -85,9 +85,12 @@ If link does not work copy URL ( https://frempongdev.github.io/Accra-Esports-Fes
 
 - **This Project has a Readme.md file**
 - **This Project has a gitignore file**
-- **This projects follows all Microverse Linters**
-- **This project gives detail description about the Esports festival in Accra**
+- **This projects uses all Microverse Linters to check errors**
+- **This project gives details about the Esports festival in Accra, its date, time and location**
 - **This project gives opportunity for participants to book a ticket for the event**
+- **This project has links to various Video game power houses in Ghana**
+- **This project lists various activities to be done during the event**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,9 +157,17 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Tickets Page]**
-- [ ] **[Accommodation Booking]**
-- [ ] **[Individual Event Pages]**
+- [ ] **[Tickets Page to Join event]**
+- [ ] **[Accommodation Booking Page for travellers]**
+- [ ] **[Individual Event Activity Pages]**
+- [ ] **[Sponsor Page]**
+- [ ] **[News Page for various Ghanaian Gaming events newa]**
+- [ ] **[Multi-Language implementation for page]**
+- [ ] **[E-Campaign Page for a gaming campaign]**
+- [ ] **[Sign In Page for users to keep unique user details]**
+- [ ] **[Link addresses for various speakers of the event]**
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
