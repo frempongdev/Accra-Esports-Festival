@@ -26,6 +26,7 @@
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -42,6 +43,9 @@ If link does not work copy URL ( https://frempongdev.github.io/Accra-Esports-Fes
 ### Have a look at the project's video presentation [here](https://www.loom.com/share/1f7de2b9345a4d3988c6327952899d30) 📽️ .
 
 <br>
+## SCREENSHOT
+  <img src="https://pbs.twimg.com/media/Ft2gt92XwAEmrMn?format=jpg&name=large" alt="logo" width="1600"  height="auto" />
+  <br/> 
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -84,9 +88,12 @@ If link does not work copy URL ( https://frempongdev.github.io/Accra-Esports-Fes
 
 - **This Project has a Readme.md file**
 - **This Project has a gitignore file**
-- **This projects follows all Microverse Linters**
-- **This project gives detail description about the Esports festival in Accra**
+- **This projects uses all Microverse Linters to check errors**
+- **This project gives details about the Esports festival in Accra, its date, time and location**
 - **This project gives opportunity for participants to book a ticket for the event**
+- **This project has links to various Video game power houses in Ghana**
+- **This project lists various activities to be done during the event**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,12 +146,13 @@ Example command:
 
 
 <!-- AUTHORS -->
-
+### 👥 Frempong
 ## 👥 Author <a name="authors"></a>
+### 👥 Frempong
 
 - GitHub: [@frempongdev](https://github.com/frempongdev)
 - Twitter: [@knobaddy](https://twitter.com/knobaddy)
-- LinkedIn: [Samuel knower Amankwaa-Frempong](https://www.linkedin.com/in/samuel-knower-amankwaa-frempong-356802256/)
+- LinkedIn: [Samuel knower Amankwaa-Frempong](https://www.linkedin.com/in/frempongdev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,13 +160,26 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Tickets Page]**
-- [ ] **[Accommodation Booking]**
-- [ ] **[Individual Event Pages]**
+- [ ] **[Tickets Page to Join event]**
+- [ ] **[Accommodation Booking Page for travellers]**
+- [ ] **[Individual Event Activity Pages]**
+- [ ] **[Sponsor Page]**
+- [ ] **[News Page for various Ghanaian Gaming events newa]**
+- [ ] **[Multi-Language implementation for page]**
+- [ ] **[E-Campaign Page for a gaming campaign]**
+- [ ] **[Sign In Page for users to keep unique user details]**
+- [ ] **[Link addresses for various speakers of the event]**
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
+## :handshake: Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -171,6 +192,8 @@ If you like this project kindly support by suggesting changed by forking and pul
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+This project is part of Capstone week of module 1 in the Microverse study program.
+
 
 I would like to thank  everyone who inspired me to learn programming. Regards to the whole Microverse team, Peers, and family supporting. <br>A massive Thank You to [Cindy Shin](https://www.behance.net/adagio07) who is the original designer of this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
@@ -180,6 +203,6 @@ I would like to thank  everyone who inspired me to learn programming. Regards to
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./license) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
