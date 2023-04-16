@@ -43,6 +43,9 @@ If link does not work copy URL ( https://frempongdev.github.io/Accra-Esports-Fes
 ### Have a look at the project's video presentation [here](https://www.loom.com/share/1f7de2b9345a4d3988c6327952899d30) 📽️ .
 
 <br>
+## SCREENSHOT
+  <img src="https://pbs.twimg.com/media/Ft2gt92XwAEmrMn?format=jpg&name=large" alt="logo" width="1600"  height="auto" />
+  <br/> 
 
 <!-- PROJECT DESCRIPTION -->
 
