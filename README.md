@@ -26,6 +26,7 @@
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -139,12 +140,13 @@ Example command:
 
 
 <!-- AUTHORS -->
-
+### 👥 Frempong
 ## 👥 Author <a name="authors"></a>
+### 👥 Frempong
 
 - GitHub: [@frempongdev](https://github.com/frempongdev)
 - Twitter: [@knobaddy](https://twitter.com/knobaddy)
-- LinkedIn: [Samuel knower Amankwaa-Frempong](https://www.linkedin.com/in/samuel-knower-amankwaa-frempong-356802256/)
+- LinkedIn: [Samuel knower Amankwaa-Frempong](https://www.linkedin.com/in/frempongdev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +160,12 @@ Example command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
+## :handshake: Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -180,6 +187,6 @@ I would like to thank  everyone who inspired me to learn programming. Regards to
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./license) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
