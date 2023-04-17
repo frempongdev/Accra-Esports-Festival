@@ -53,7 +53,6 @@
   }
 
   .navs {
-    /* border: 1px solid gold; */
     position: unset;
     position: static;
     display: flex;
@@ -64,8 +63,6 @@
 
   .page-logo {
     width: 10%;
-
-    /* display: flex; */
   }
 
   .navs img {
@@ -84,14 +81,19 @@
     margin: 0%;
   }
 
+  .nav-wrapper li a:hover {
+    color: #ec5242;
+  }
+
+
   .nav-wrapper li a {
     color: black;
     font-size: 0.9rem;
   }
 
-  #about {
+  /* #about {
     color: #ec5242;
-  }
+  } */
 
   .campaign-link {
     position: relative;
@@ -123,6 +125,10 @@
   .main-desc {
     width: 50%;
     padding: 3%;
+  }
+
+  .main-desc p {
+    font-size: 1rem;
   }
 
   .date {
@@ -158,14 +164,16 @@
     display: grid;
     grid-template-columns: unset;
     grid-template-rows: 2fr 1.5fr 3fr;
-
-    /* display: flex;
-    flex-direction: column; */
     margin-right: 1%;
     justify-items: center;
     padding: 10%;
     height: 60%;
   }
+
+  .program-box:hover {
+    background-color: rgb(44, 44, 44);
+  }
+
 
   .program-desc {
     font-size: 0.8rem;
@@ -206,6 +214,10 @@
 
   .speaker-box {
     margin: 0% 1% 5% 0%;
+  }
+
+  .speaker-desc {
+    font-size: 0.85rem;
   }
 
   .show-btn {
