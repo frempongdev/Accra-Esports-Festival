@@ -81,19 +81,14 @@
     margin: 0%;
   }
 
-  .nav-wrapper li a:hover {
-    color: #ec5242;
-  }
-
-
   .nav-wrapper li a {
     color: black;
     font-size: 0.9rem;
   }
 
-  /* #about {
+  .nav-wrapper li a:hover {
     color: #ec5242;
-  } */
+  }
 
   .campaign-link {
     position: relative;
@@ -173,7 +168,6 @@
   .program-box:hover {
     background-color: rgb(44, 44, 44);
   }
-
 
   .program-desc {
     font-size: 0.8rem;

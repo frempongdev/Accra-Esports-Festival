@@ -20,8 +20,6 @@ body {
   color: #d3d3d3;
   color: #272a31;
   width: 32px;
-
-  /* margin: 5% 0% 2% 5%; */
 }
 
 .nav-bg {
@@ -164,7 +162,6 @@ h1 {
 }
 
 .divider {
-  /* background-color: #ec5242; */
   border-bottom: #ec5242 solid 1px;
   height: 1.5px;
   width: 8%;
