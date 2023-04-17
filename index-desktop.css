@@ -246,6 +246,10 @@
     margin-right: 2%;
   }
 
+  .partner:hover {
+    border: #a6a6a6 solid;
+  }
+
   .footer {
     color: black;
     background-color: white;
