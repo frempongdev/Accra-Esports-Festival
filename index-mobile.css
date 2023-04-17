@@ -199,8 +199,6 @@ h1 {
   text-decoration: none;
   color: white;
   background-color: #ec5242;
-
-  /* height: 5%; */
   padding: 8% 10% 8% 10%;
 }
 
@@ -244,7 +242,6 @@ h1 {
 }
 
 .speaker-name {
-  /* color: #ec5242; */
   font-size: 1.2rem;
 }
 

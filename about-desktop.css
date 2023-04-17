@@ -59,7 +59,6 @@
   }
 
   .navs {
-    /* border: 1px solid gold; */
     position: unset;
     position: static;
     display: flex;
@@ -102,11 +101,7 @@
     font-size: 0.9rem;
   }
 
-  #home {
-    color: #ec5242;
-  }
-
-  #about {
+  .nav-wrapper li a:hover {
     color: #ec5242;
   }
 

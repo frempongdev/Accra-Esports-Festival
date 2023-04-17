@@ -53,7 +53,6 @@
   }
 
   .navs {
-    /* border: 1px solid gold; */
     position: unset;
     position: static;
     display: flex;
@@ -64,8 +63,6 @@
 
   .page-logo {
     width: 10%;
-
-    /* display: flex; */
   }
 
   .navs img {
@@ -89,7 +86,7 @@
     font-size: 0.9rem;
   }
 
-  #about {
+  .nav-wrapper li a:hover {
     color: #ec5242;
   }
 
@@ -125,6 +122,10 @@
     padding: 3%;
   }
 
+  .main-desc p {
+    font-size: 1rem;
+  }
+
   .date {
     font-size: 2rem;
     font-weight: 900;
@@ -158,13 +159,14 @@
     display: grid;
     grid-template-columns: unset;
     grid-template-rows: 2fr 1.5fr 3fr;
-
-    /* display: flex;
-    flex-direction: column; */
     margin-right: 1%;
     justify-items: center;
     padding: 10%;
     height: 60%;
+  }
+
+  .program-box:hover {
+    background-color: rgb(44, 44, 44);
   }
 
   .program-desc {
@@ -206,6 +208,10 @@
 
   .speaker-box {
     margin: 0% 1% 5% 0%;
+  }
+
+  .speaker-desc {
+    font-size: 0.85rem;
   }
 
   .show-btn {
